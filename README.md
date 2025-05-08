@@ -95,3 +95,23 @@ Below, you can see a comparison between the original signal and the wah-wah proc
 
 ![Spectrogram Comparison](images/imagem_2025-05-08_001005261.png)
 
+## Observations and Future Work
+
+This project successfully simulates the Wah-Wah effect using time-varying FIR bandpass filters. However, there are several areas for improvement and exploration:
+
+ - Filter Configuration Exploration:
+Future iterations will experiment with different frequency bands and bandwidths, as well as varying the number of active filters, to find configurations that produce more expressive or musically pleasant results.
+
+ - Audio Quality Optimization:
+Signal treatment techniques such as noise reduction, normalization, or dynamic range compression could improve the overall clarity and reduce artifacts introduced by filter switching.
+
+ - Incorporating Distortion Effects:
+A long-term goal is to add distortion—commonly found in real Wah-Wah pedal circuits—by introducing a nonlinear processing stage. One possibility is the use of IIR filters or soft clipping functions to simulate analog saturation.
+
+These enhancements aim to bring the simulated effect closer to the warmth and character of real analog Wah-Wah pedals.
+
+## Conclusion
+This project demonstrates a functional and customizable digital emulation of the Wah-Wah audio effect using FIR bandpass filters. By alternating between multiple filter bands over time, it successfully mimics the sweeping resonance movement characteristic of analog pedals.
+
+Beyond its implementation, this project serves as a learning platform for digital signal processing concepts such as filter design, time-based modulation, and real-time audio transformation. With further improvements in filter configuration, signal treatment, and distortion integration, this system has the potential to evolve into a versatile effect module for music processing or embedded audio applications.
+
