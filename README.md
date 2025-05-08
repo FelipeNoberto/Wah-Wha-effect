@@ -84,3 +84,14 @@ The audio with the effect will be saved as: wahwah_4filters.wav
 ## Filter Frequency Responses
 
 ![Filter Response](images/imagem_2025-05-07_235803218.png)
+
+
+## Spectrogram Analysis
+
+
+To evaluate the impact of the FIR band-pass filters on the input audio signal, we performed a visual analysis through spectrograms. These plots allow us to track the energy distribution across the frequency spectrum over time.
+
+Below, you can see a comparison between the original signal and the wah-wah processed signal using the five-band FIR filter alternation strategy.
+
+![Spectrogram Comparison](images/imagem_2025-05-08_001005261.png)
+
