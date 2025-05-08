@@ -80,3 +80,7 @@ python src/wahwahfir.py
 3. Output
 
 The audio with the effect will be saved as: wahwah_4filters.wav
+
+## Filter Frequency Responses
+
+![Filter Response](images/imagem_2025-05-07_235803218.png)
